@@ -15,7 +15,10 @@ pip install -r requirements.txt
 
 create `grhistoricalsite/grhistoricalsite/local_settings.py` file
 
-`python manage.py createdb --noinput`
+```
+python manage.py createdb --noinput --nodata
+python manage.py import_pages --navigation --mezzanine-user admin
+```
 
 run the server:
 

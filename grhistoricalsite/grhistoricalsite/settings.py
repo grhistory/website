@@ -324,6 +324,7 @@ INSTALLED_APPS = (
     "mezzanine.galleries",
     "mezzanine.twitter",
     # "mezzanine.accounts",
+    "grhs_custom",
 )
 
 
