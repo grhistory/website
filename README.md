@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 create `grhistoricalsite/grhistoricalsite/local_settings.py` file
 
-`python manage.py createdb --noinput`
+`python manage.py createdb --noinput --nodata`
 
 run the server:
 
