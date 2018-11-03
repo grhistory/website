@@ -6,9 +6,14 @@ To set up project:
 
 create a virtual environment 
 
-`python3 -m venv myvenv`
+```
+python3 -m venv myvenv
+source myvenv/bin/activate
+cd grhistoricalsite
+pip install -r requirements.txt
+```
 
-create local_settings.py file
+create `grhistoricalsite/grhistoricalsite/local_settings.py` file
 
 `python manage.py createdb --noinput`
 
